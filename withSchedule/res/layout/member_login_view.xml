@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#C6FFFF"
+    >
+	
+    <!-- Location -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dip" >
+		
+		<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:padding="10dip" 
+	        android:background="@drawable/check">
+	        	<TextView 
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:text="혹시 기기변동,번호이동을 하셨다면, 전에 등록하신 계정과 비밀번호를 입력해주세요. 이전에 등록하셨던 스케쥴 정보 그대로를 다시 사용하실 수 있습니다."
+	        	    android:textColor="#f111"/>
+				
+    	</LinearLayout>
+    	
+    	
+    	
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/setting_menu2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/linear_login_email"
+		        android:layout_width="fill_parent"
+	     		android:layout_height="wrap_content"
+	     		android:layout_weight="1"
+	            android:orientation="horizontal" >
+		
+		        <TextView
+		            android:layout_width="60dp"
+		            android:layout_height="fill_parent"
+		            android:gravity="center_vertical|center_horizontal"
+		            android:text="계정"
+		            android:textColor="#FF000000"
+		            android:textSize="13sp"
+		            android:textStyle="bold"
+		            android:typeface="sans" />
+		
+		        <TextView
+		            android:id="@+id/login_email"
+		            android:layout_width="190dp"
+		            android:gravity="center_vertical"
+		            android:layout_height="fill_parent"
+		            android:textColor="#FF000000" />
+      	  </LinearLayout>
+		
+       
+        <LinearLayout
+        android:id="@+id/linear_login_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="비밀번호"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="13sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/login_password"
+            android:layout_width="190dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:textColor="#FF000000"
+            android:password="true"
+            android:ems="10" >
+            
+        </TextView>
+    </LinearLayout>
+   	</LinearLayout>
+    
+   		<Button 
+   		    android:id="@+id/btn_login"
+   		    android:layout_width="fill_parent"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="5dp"
+   		    android:layout_marginRight="5dp"
+   		    android:layout_marginTop="10dp"
+   		    android:text="로그인 하기"/>
+   
+    </LinearLayout>
+    <ImageView
+	    android:src="@drawable/logo"
+	    android:layout_width="170dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="20dp"/>
+    
+    
+
+</LinearLayout>

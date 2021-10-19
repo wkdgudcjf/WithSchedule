@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#C6FFFF"
+    >
+	
+    <!-- Location -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dip" >
+		
+		<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:padding="10dip" 
+	        android:background="@drawable/check">
+	        	<TextView 
+	        	    android:layout_width="fill_parent"
+	        	    android:layout_height="wrap_content"
+	        	    android:text="이용약관"
+	        	    android:textColor="#faaa"/>
+				<ScrollView android:layout_width="fill_parent"
+				    android:layout_height="60dp"
+				    android:scrollbarStyle="outsideInset"
+				    android:background="@drawable/check_small">   
+						<LinearLayout 
+						    android:layout_width="fill_parent"
+						    android:layout_height="60dp"
+						    android:orientation="vertical"
+						    android:padding="10dp" >
+						    <TextView 
+						        android:layout_width="match_parent"
+						        android:layout_height="fill_parent"
+						        android:textColor="#f000"
+						        android:text="안녕하세요 저희는 이 앱을 개발한 개발자입니다. 저희 앱은 사용자의 전화번호를 가지고 친구들을 찾습니다. 이에따라 사용자의 정보를 저희가 가짐을 알립니다. 이 정보를 가지고 악용하지 않음을 알립니다. 그리고 날씨가 아직 춥습니다. 환절기에 감기 조심 하세요. 그럼 저희앱의 사용을 원하시면 약관에 동의 해주세요. "/>	
+						</LinearLayout>
+				</ScrollView>        
+    	</LinearLayout>
+    	<LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:padding="0dp"
+	        android:layout_marginBottom="10dp">
+
+		    <CheckBox
+		        android:id="@+id/use_ok"
+		        android:layout_width="50dp"
+		        android:layout_height="30dp"
+		        android:layout_margin="0dp"
+		        android:padding="0dp" />
+
+	    	<TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textColor="#f000"
+		        android:text="본 앱의 이용약관에 동의합니다."/>			
+    	</LinearLayout>
+    	
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/setting_menu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/linear_join_email"
+		        android:layout_width="fill_parent"
+	     		android:layout_height="wrap_content"
+	     		android:layout_weight="1"
+	            android:orientation="horizontal" >
+		
+		        <TextView
+		            android:layout_width="60dp"
+		            android:layout_height="fill_parent"
+		            android:gravity="center_vertical|center_horizontal"
+		            android:text="계정"
+		            android:textColor="#FF000000"
+		            android:textSize="13sp"
+		            android:textStyle="bold"
+		            android:typeface="sans" />
+		
+		        <TextView
+		            android:id="@+id/join_email"
+		            android:layout_width="190dp"
+		            android:gravity="center_vertical"
+		            android:layout_height="fill_parent"
+		            android:textColor="#FF000000" />
+      	  </LinearLayout>
+		
+         <LinearLayout
+             android:id="@+id/linear_join_name"
+		       	android:layout_width="fill_parent"
+	     		android:layout_height="wrap_content"
+	     		android:layout_weight="1"
+	            android:orientation="horizontal" >
+		
+		        <TextView
+		            android:layout_width="60dp"
+		            android:layout_height="fill_parent"
+		            android:gravity="center_vertical|center_horizontal"
+		            android:text="이름"
+		            android:textSize="13sp"
+		            android:textStyle="bold"
+		        	android:typeface="sans"
+		            android:textColor="#FF000000" />
+		
+		        <TextView
+		            android:id="@+id/join_name"
+		            android:layout_width="190dp"
+		            android:gravity="center_vertical"
+		            android:layout_height="fill_parent"
+		            android:textColor="#FF000000" />
+      	  </LinearLayout>
+		
+        <LinearLayout
+        android:id="@+id/linear_join_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="비밀번호"
+            android:textStyle="bold"
+            android:textColor="#FF000000"
+            android:textSize="13sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:id="@+id/join_password"
+            android:layout_width="190dp"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:password="true"
+            android:textColor="#FF000000"
+            android:ems="10" >
+            
+        </TextView>
+    </LinearLayout>
+   	</LinearLayout>
+    	
+    	
+    	<TextView 
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center"
+		        android:textColor="#fc00"
+		        android:text="실명으로 입력해야 친구들이 더 찾기 쉬워요^^"/>	
+    
+   		<Button 
+   		    android:id="@+id/btn_join"
+   		    android:layout_width="fill_parent"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="5dp"
+   		    android:layout_marginRight="5dp"
+   		    android:layout_marginTop="10dp"
+   		    android:text="계정 등록하기"/>
+   		<TextView 
+	       android:id="@+id/already_join"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:gravity="center"
+	       android:textStyle="italic"
+	       android:layout_marginTop="10dp"
+	       android:textColor="#f000"
+	       android:text="@string/already_join"/>
+   
+    </LinearLayout>
+    <ImageView
+	    android:src="@drawable/logo"
+	    android:layout_width="170dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_marginTop="20dp"/>
+    
+    
+
+</LinearLayout>

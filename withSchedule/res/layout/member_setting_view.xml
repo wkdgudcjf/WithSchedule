@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#C6FFFF"
+    android:orientation="vertical" >
+
+	  <TextView 
+	      android:layout_width="fill_parent"
+	      android:layout_height="40dp"
+	      android:layout_marginBottom="20dp"
+	      android:background="@drawable/setting_var"
+	      android:text="setting"
+	      android:textSize="20sp"
+	      android:textColor="#ffffffff"
+	      android:textStyle="bold"
+	      android:typeface="sans"
+	      android:gravity="center"/>
+	  <TextView 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:text="계정/이름/비밀번호"
+	      android:layout_marginLeft="20dp"
+	      android:layout_marginBottom="8dp"
+	      android:textSize="15sp"
+	      android:textColor="#ff000000"
+	      android:textStyle="bold"
+	      android:typeface="sans"/>
+	  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/setting_menu"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+        <TextView 
+            android:id="@+id/setting_email"
+	      android:layout_width="fill_parent"
+	      android:layout_height="40dp"
+	      android:layout_weight="1"
+	      android:layout_marginLeft="10dp"
+	      android:text="hysick71@nate.com"
+	      android:textSize="20sp"
+	      android:textColor="#ff000000"
+	      android:textStyle="bold"
+	      android:typeface="sans"
+	      android:gravity="center_vertical"/>
+        <TextView 
+            android:id="@+id/setting_name"
+	      android:layout_width="fill_parent"
+	      android:layout_height="40dp"
+	      android:layout_marginLeft="10dp"
+	      android:layout_weight="1"
+	      android:text="함영식"
+	      android:textSize="15sp"
+	      android:textColor="#ff000000"
+	      android:textStyle="bold"
+	      android:typeface="sans"
+	      android:gravity="center_vertical"/>
+
+        <TextView 
+            android:id="@+id/setting_password"
+	      android:layout_width="fill_parent"
+	      android:layout_height="40dp"
+	      android:layout_marginLeft="10dp"
+	      android:layout_weight="1"
+	      android:text="비밀번호 변경"
+	      android:textSize="15sp"
+	      android:textColor="#ff000000"
+	      android:textStyle="bold"
+	      android:typeface="sans"
+	      android:gravity="center_vertical"/>
+   	</LinearLayout>
+
+	  <TextView 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_margin="20dp"
+	      android:text="안심하세요!
+이제 기기를 교체하거나 번호를 변경하여도  Wi's계정으로 
+다시 로그인을 하면 이전에 사용했던  친구목록, 일정목록등을 다시 불러올 수 있습니다."
+	      android:textSize="10sp"
+	      android:textColor="#aa000000"
+	      android:textStyle="italic"
+	      android:typeface="sans"
+	      android:gravity="center_vertical"/>
+	  
+	  <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/single_menu"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical" >
+        <TextView 
+            android:id="@+id/remove_member"
+	      android:layout_width="fill_parent"
+	      android:layout_height="40dp"
+	      android:layout_weight="1"
+	      android:layout_marginLeft="10dp"
+	      android:text="회원탈퇴 하기"
+	      android:textSize="15sp"
+	      android:textColor="#ff000000"
+	      android:textStyle="bold"
+	      android:typeface="sans"
+	      android:gravity="center_vertical"/>
+   	</LinearLayout>
+   	
+	   <TextView 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_margin="20dp"
+	      android:text="회원탈퇴시 이전 모든 스케쥴과 친구목록이 사라집니다. 
+신중히 생각하시고 탈퇴해주세요. "
+	      android:textSize="10sp"
+	      android:textColor="#aa000000"
+	      android:textStyle="italic"
+	      android:typeface="sans"
+	      android:gravity="center_vertical"/>
+</LinearLayout>

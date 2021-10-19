@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/entrylist_row"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/boarder_bottom_white"
+    android:orientation="horizontal" >
+	<LinearLayout 
+	    android:layout_width="40dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:padding="3dp"
+	    android:orientation="vertical">
+	    <TextView 
+	        android:id="@+id/entry_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:background="#00000000"
+	        android:textColor="#ff000000"
+	        android:text="함영식"/>
+	    <TextView 
+	        android:id="@+id/entry_email"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="8sp"
+	        android:background="#00000000"
+	        android:textColor="#ff000000"
+	        android:text="hysick71@nate.com"/>
+	</LinearLayout>
+   <ImageView 
+       android:id="@+id/btn_add_friend"
+       android:background="@drawable/friend_add_click"
+       android:layout_width="30dp"
+       android:layout_height="30dp"
+       android:layout_marginRight="3dp"
+       android:layout_gravity="center_vertical"/>
+</LinearLayout>

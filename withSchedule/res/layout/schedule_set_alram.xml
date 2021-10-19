@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#FFFFFFFF"
+    android:orientation="vertical" >
+    	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+    	
+	    	 <TextView
+	            android:layout_width="50dip"
+	            android:layout_height="fill_parent"
+	            android:gravity="center_horizontal|center_vertical"
+	            android:text="알 림"
+	            android:textColor="#FF000000" />
+	
+	        <CheckBox
+	            android:id="@+id/set_alarmcheck"
+	            android:layout_width="250dip"
+	            android:layout_height="wrap_content"
+	            android:text="" />
+	     </LinearLayout>
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+		<RadioGroup
+            android:id="@+id/set_alarmgroup"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical" >
+	        
+	       	<RadioButton
+	            android:id="@+id/set_a_5"
+	            android:layout_width="80dp"
+	            android:layout_height="45dp"
+	            android:textColor="#FF000000"
+	            android:text="5분전" />
+	
+	        <RadioButton
+	            android:id="@+id/set_a_15"
+	            android:layout_width="100dp"
+	            android:layout_height="45dp"
+	            android:textColor="#FF000000"
+	            android:text="15분전" />
+	        
+	        <RadioButton
+	            android:id="@+id/set_a_30"
+	            android:layout_width="100dp"
+	            android:layout_height="45dp"
+	            android:textColor="#FF000000"
+	            android:text="30분전" />
+	    </RadioGroup>
+      
+    </LinearLayout>
+ </LinearLayout>

@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#C6FFFF">
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	    <RelativeLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="40dp"
+		    android:keepScreenOn="true" >
+			
+			<TextView
+		        android:layout_width="fill_parent"
+			      android:layout_height="wrap_content"
+			      android:layout_marginBottom="0dp"
+			      android:background="@drawable/setting_var"
+			      android:text="schedule list"
+			      android:textSize="20sp"
+			      android:textColor="#ffffffff"
+			      android:textStyle="bold"
+			      android:typeface="sans"
+			      android:gravity="center"
+			      />	
+		</RelativeLayout>
+		
+	    
+	    <LinearLayout
+	     android:orientation="horizontal"
+	     android:layout_width="fill_parent"    
+	     android:layout_height="wrap_content"
+	     android:background="#FFFFFF"
+	    >
+	    
+	    <ImageView
+		     android:src="@drawable/prev_click"
+		     android:layout_width="50dp"
+		     android:layout_height="fill_parent"
+		     android:id="@+id/pre"
+		     android:layout_weight="1"
+		    />
+		    <LinearLayout
+	        android:layout_width="0dp"
+	     	android:layout_height="fill_parent"
+	     	android:layout_weight="7"
+	     	android:background="#fff"
+	     	android:gravity="center_horizontal|center_vertical"
+	     	>
+		        <TextView
+			     android:layout_width="wrap_content"
+			     android:layout_height="wrap_content"
+			     android:id="@+id/today"
+			     android:textColor="#FF000000"
+			     />
+	 	   </LinearLayout>
+	       
+		    <ImageView
+		     android:src="@drawable/next_click"
+		     android:layout_width="50dp"
+		     android:layout_height="fill_parent"
+		     android:id="@+id/next"
+		     android:layout_weight="1"
+		    />
+	    
+	    </LinearLayout>
+	    
+	    <LinearLayout
+		         android:layout_width="fill_parent"
+			     android:layout_height="30dp"
+			     android:orientation="horizontal"
+			     android:layout_margin="3dp"
+			     android:background="@drawable/search_bar">
+			     
+	         <ImageView
+	             android:src="@drawable/search_icon"
+	            android:layout_marginLeft="5dp"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"/>	       
+	         
+	         <EditText
+	            android:id="@+id/edit_search"
+	            android:background="@null"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="6dp"
+	            android:layout_marginRight="10dp"
+	            android:layout_gravity="center_vertical"
+	            android:hint="검색할 정보를 입력하세요"
+	            android:ems="10" />
+	    </LinearLayout>
+	    
+	    
+	    <ScrollView 
+	        android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:scrollbarStyle="outsideOverlay">   
+		    <LinearLayout
+		         android:layout_width="fill_parent"
+			     android:layout_height="wrap_content"
+			     android:orientation="vertical"
+			     android:id="@+id/schedule_table"
+			     >
+	        
+	    	</LinearLayout>
+	    </ScrollView>
+	</LinearLayout>
+</LinearLayout>

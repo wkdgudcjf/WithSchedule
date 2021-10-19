@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#332dffff"
+    >
+	<LinearLayout
+	 android:layout_marginTop="10dp"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"    
+     android:layout_height="wrap_content"
+     >
+    	<ImageView 
+    	    android:layout_width="140dp"    
+    		android:layout_height="30dp"
+    		android:src="@drawable/request_friend"/>
+    	<TextView 
+    	    android:layout_width="fill_parent"    
+    	 	android:layout_height="wrap_content"
+    	 	android:layout_gravity="bottom"
+    	 	android:text=" 친구요청"/>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_marginTop="5dp"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"    
+     android:layout_height="wrap_content"
+     >
+    	<ImageView 
+    	    android:layout_width="40dp"    
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/btn_add_friend2"/>
+    	<TextView 
+    	    android:layout_width="fill_parent"    
+    	 	android:layout_height="wrap_content"
+    	 	android:layout_gravity="center_vertical"
+    	 	android:text=" 친구 추가"/>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_marginTop="10dp"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"    
+     android:layout_height="wrap_content"
+     >
+    	<ImageView 
+    	    android:layout_width="140dp"    
+    		android:layout_height="30dp"
+    		android:src="@drawable/request_schedule"/>
+    	<TextView 
+    	    android:layout_width="fill_parent"    
+    	 	android:layout_height="wrap_content"
+    	 	android:layout_gravity="bottom"
+    	 	android:text=" 일정(신청/요청)"/>
+	</LinearLayout>
+	<LinearLayout
+     android:layout_marginTop="5dp"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"    
+     android:layout_height="wrap_content"
+     >
+    	<ImageView 
+    	    android:layout_width="60dp"    
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/btn_accept_schedule"/>
+    	<TextView 
+    	    android:layout_width="fill_parent"    
+    	 	android:layout_height="wrap_content"
+    	 	android:layout_gravity="center_vertical"
+    	 	android:text=" 참가요청 수락"/>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_marginTop="5dp"
+     android:orientation="horizontal"
+     android:layout_width="fill_parent"    
+     android:layout_height="wrap_content"
+     >
+    	<ImageView 
+    	    android:layout_width="40dp"    
+    		android:layout_height="wrap_content"
+    		android:src="@drawable/btn_exit"/>
+    	<TextView 
+    	    android:layout_width="fill_parent"    
+    	 	android:layout_height="wrap_content"
+    	 	android:layout_gravity="center_vertical"
+    	 	android:text=" 참가신청 취소/참가요청 거절"/>
+	</LinearLayout>
+	
+</LinearLayout>
+
+

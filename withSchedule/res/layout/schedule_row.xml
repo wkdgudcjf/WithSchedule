@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/schedule_row"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/boarder_bottom_white"
+    android:orientation="horizontal" >
+	<LinearLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="3dp"
+	    android:orientation="vertical">
+	    <TextView 
+	        android:id="@+id/schedule_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="#00000000"
+	        android:textColor="#ff000000"
+	        android:text="제목 : 안녕하세요"/>
+	    <TextView 
+	        android:id="@+id/schedule_time"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="#00000000"
+	        android:textColor="#ff000000"
+	        android:text="% 10:00~"/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/btn_collection"
+		android:layout_width="wrap_content"
+	    android:layout_height="35dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true">
+	   <ImageView 
+	       android:id="@+id/btn_join"
+	       android:src="@drawable/btn_join"
+	       android:layout_width="0dp"
+	       android:layout_height="35dp"
+	       android:layout_weight="1"
+	       android:layout_marginRight="3dp"
+		   android:layout_gravity="center_vertical"/>
+	   <ImageView 
+	       android:id="@+id/btn_detail"
+	       android:src="@drawable/btn_detail"
+	       android:layout_width="0dp"
+	       android:layout_height="35dp"
+	       android:layout_weight="1"
+	       android:layout_marginRight="3dp"
+	       android:layout_gravity="center_vertical"/>
+	   <ImageView 
+	       android:id="@+id/btn_alram"
+	       android:src="@drawable/btn_alram"
+	       android:layout_width="0dp"
+	       android:layout_height="35dp"
+	       android:layout_weight="1"
+	       android:layout_marginRight="3dp"
+	       android:layout_gravity="center_vertical"/>
+	   <ImageView 
+	       android:id="@+id/btn_exit"
+	       android:src="@drawable/btn_exit"
+	       android:layout_width="0dp"
+	       android:layout_height="35dp"
+	       android:layout_weight="1"
+	       android:layout_marginRight="3dp"
+	       android:layout_gravity="center_vertical"/>
+   </LinearLayout>
+</RelativeLayout>

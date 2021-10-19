@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">withschedule</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="check_checkbox">이용약관에 동의 해주세요</string>
+    <string name="check_email">"이메일을 제대로 입력해주세요"</string>
+    <string name="check_name">"닉네임를 제대로 입력해주세요"</string>
+    <string name="check_password">"비밀번호를 제대로 입력해주세요"</string>
+    <string name="check_network">네트워크 확인후 다시 접속해 주세요!</string>
+    <string name="check_double">이미 등록된 계정이 있습니다.</string>
+	<string name="already_join"><u>혹시 기기번경이나 번호이동을 하셨나요?</u></string>
+	<string name="system_error">시스템의 문제로 기능을 제대로 수행할 수 없습니다.</string>
+	<string name="not_search">입력된 계정과 일치하는 정보가 없습니다.</string>
+	<string name="missmatch_password">비밀번호가 일치하지 않습니다.</string>
+	<string name="schedule_not_found">해당 스케쥴 정보를 불러올 수 없습니다.</string>
+	<string name="no_internet">Wifi 혹은 3G망이 연결되지 않았거나 원활하지 않습니다.네트워크 확인후 다시 접속해 주세요!</string>
+	<string name="no_owner">방장이 아닙니다.</string>
+	<string name="edit_email">존재하는 이메일 입니다.</string>
+	<string name="edit_pw">비밀번호가 다릅니다.</string>
+	<string name="late_alarm">알람시간이 지났습니다.</string>
+	<string name="check_title">제목을 입력해주세요.</string>
+	<string name="check_time">일정을 과거로 돌릴수 없습니다.</string>
+	<string name="duplicate">이미 요청을 보냈습니다.</string>
+	<string name="http_error">통신신호가 미약하여 작업을 제대로 수행할 수 없습니다.</string>
+	
+	
+	
+</resources>

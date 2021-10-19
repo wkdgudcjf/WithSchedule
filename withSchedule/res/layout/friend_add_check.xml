@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="#FF000000"
+    android:orientation="vertical" >
+		
+    	<TextView
+           android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:layout_margin="20dp"
+	      android:text="친구추가를 하시겠습니까?"
+	      android:textSize="15sp"
+	      android:textColor="#FFFFFFFF"
+	      android:background="#FF000000"
+	      android:textStyle="italic"
+	      android:typeface="sans"
+	      android:gravity="center_vertical"
+           >
+        </TextView>
+</LinearLayout>

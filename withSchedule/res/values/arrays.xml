@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="logcat_levels">
+        <item>한번</item>
+        <item>매주</item>
+        <item>월말</item>
+        <item>매달</item>
+        <item>매년</item>
+    </string-array>
+
+</resources>
